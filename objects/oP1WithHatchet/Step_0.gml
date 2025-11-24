@@ -32,6 +32,8 @@ if (_interact == true)
 			joint = physics_joint_wheel_create(id, hatchet_id, hatchet_id.phy_position_x, hatchet_id.phy_position_y, 0, 1, false, 10, 1, 15, 6, false);
 			
 			holdingItem = true;
+			
+			hatchet_id.phy_active = true;
 		}
 	}
 }
