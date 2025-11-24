@@ -64,6 +64,7 @@
     {"name":"oWall","order":1,"path":"objects/oWall/oWall.yy",},
     {"name":"oWallCurve","order":2,"path":"objects/oWallCurve/oWallCurve.yy",},
     {"name":"oWallWedge","order":3,"path":"objects/oWallWedge/oWallWedge.yy",},
+    {"name":"oWheel","order":4,"path":"objects/oWheel/oWheel.yy",},
     {"name":"oWoodPlank","order":1,"path":"objects/oWoodPlank/oWoodPlank.yy",},
     {"name":"oWoodPlankWithWheels","order":2,"path":"objects/oWoodPlankWithWheels/oWoodPlankWithWheels.yy",},
     {"name":"rBeachBallArena","order":1,"path":"rooms/rBeachBallArena/rBeachBallArena.yy",},
@@ -88,6 +89,7 @@
     {"name":"sBeachBallButton","order":19,"path":"sprites/sBeachBallButton/sBeachBallButton.yy",},
     {"name":"sBouncyBallsButton","order":23,"path":"sprites/sBouncyBallsButton/sBouncyBallsButton.yy",},
     {"name":"sBox","order":5,"path":"sprites/sBox/sBox.yy",},
+    {"name":"sCar","order":40,"path":"sprites/sCar/sCar.yy",},
     {"name":"sCarButton","order":26,"path":"sprites/sCarButton/sCarButton.yy",},
     {"name":"sCatapultButton","order":24,"path":"sprites/sCatapultButton/sCatapultButton.yy",},
     {"name":"sHachetP1","order":34,"path":"sprites/sHachetP1/sHachetP1.yy",},
@@ -110,6 +112,7 @@
     {"name":"sWallCircle","order":10,"path":"sprites/sWallCircle/sWallCircle.yy",},
     {"name":"sWallCurve","order":11,"path":"sprites/sWallCurve/sWallCurve.yy",},
     {"name":"sWallWedge","order":6,"path":"sprites/sWallWedge/sWallWedge.yy",},
+    {"name":"sWheel","order":39,"path":"sprites/sWheel/sWheel.yy",},
     {"name":"sWoodPlank","order":15,"path":"sprites/sWoodPlank/sWoodPlank.yy",},
   ],
 }

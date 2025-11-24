@@ -25,9 +25,9 @@
   "physicsShape":1,
   "physicsShapePoints":[
     {"x":0.0,"y":0.0,},
-    {"x":320.0,"y":0.0,},
-    {"x":320.0,"y":14.0,},
-    {"x":0.0,"y":14.0,},
+    {"x":420.0,"y":0.0,},
+    {"x":420.0,"y":146.0,},
+    {"x":0.0,"y":146.0,},
   ],
   "physicsStartAwake":true,
   "properties":[],
@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sWoodPlank",
-    "path":"sprites/sWoodPlank/sWoodPlank.yy",
+    "name":"sCar",
+    "path":"sprites/sCar/sCar.yy",
   },
   "spriteMaskId":null,
   "visible":true,
