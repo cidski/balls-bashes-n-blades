@@ -15,10 +15,9 @@ if (_interact == true)
 	if (holdingItem == true)
 	{
 		// throw
+		
 		physics_joint_delete(joint);
 		holdingItem = false;
-		
-		
 	}
 	else
 	{
