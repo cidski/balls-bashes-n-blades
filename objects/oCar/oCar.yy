@@ -1,11 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"oWoodPlankWithWheels",
+  "%Name":"oCar",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oWoodPlankWithWheels",
+  "name":"oCar",
   "overriddenProperties":[],
   "parent":{
     "name":"Non-Balls",
@@ -24,10 +25,10 @@
   "physicsSensor":false,
   "physicsShape":1,
   "physicsShapePoints":[
-    {"x":0.0,"y":0.0,},
-    {"x":420.0,"y":0.0,},
-    {"x":420.0,"y":146.0,},
-    {"x":0.0,"y":146.0,},
+    {"x":50.0,"y":0.0,},
+    {"x":470.0,"y":0.0,},
+    {"x":470.0,"y":144.0,},
+    {"x":50.0,"y":144.0,},
   ],
   "physicsStartAwake":true,
   "properties":[],

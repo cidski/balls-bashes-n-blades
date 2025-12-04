@@ -1,11 +1,11 @@
-var _hor = keyboard_check(ord("D")) - keyboard_check(ord("A"));
-var _ver = keyboard_check(ord("S")) - keyboard_check(ord("W"));
-var _interact = keyboard_check_pressed(ord("E"));
+var _hor = gamepad_button_check(1, gp_padr) - gamepad_button_check(1, gp_padl);
+var _ver = gamepad_button_check(1, gp_padd) - gamepad_button_check(1, gp_padu);
+var _interact = gamepad_button_check_pressed(1, gp_shoulderr);
 
 phy_speed_x = phy_speed_x + (_hor * move_speed);
 phy_speed_y = phy_speed_y + (_ver * move_speed);
 
-if (place_meeting(x, y, [oSpike, oSwordP2, oSledgeHammmerP2, oHatchetP2, oHatchetP3]))
+if (place_meeting(x, y, [oSwordP1, oSpike, oSledgeHammmerP1, oHatchetP1]))
 {
 	instance_destroy();
 }
@@ -23,7 +23,7 @@ if (_interact == true)
 	{
 		//pick up
 		
-		if (collision_circle(x, y, 65, oHatchetP1, false, true) != noone)
+		if (collision_circle(x, y, 65, oHatchetP4, false, true) != noone)
 		{
 			hatchet_id.phy_position_x = x;
 			hatchet_id.phy_position_y = y;
