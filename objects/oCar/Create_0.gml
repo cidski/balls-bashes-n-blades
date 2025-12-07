@@ -1,3 +1,5 @@
+isControlled = false;
+
 var mainFixture = physics_fixture_create();
 physics_fixture_set_box_shape(mainFixture, 128, 32);
 var wheelFixture = physics_fixture_create();

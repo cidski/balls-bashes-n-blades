@@ -5,7 +5,7 @@ var _interact = gamepad_button_check_pressed(0, gp_shoulderr);
 phy_speed_x = phy_speed_x + (_hor * move_speed);
 phy_speed_y = phy_speed_y + (_ver * move_speed);
 
-if (place_meeting(x, y, [oSwordP1, oSpike, oSledgeHammmerP1, oHatchetP1]))
+if (place_meeting(x, y, [oSwordP1, oSpike, oSledgeHammmerP1, oHatchetP1, oHatchetP2, oHatchetP4]))
 {
 	instance_destroy();
 }

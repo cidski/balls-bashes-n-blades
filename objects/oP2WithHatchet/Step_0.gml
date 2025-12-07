@@ -5,7 +5,7 @@ var _interact = keyboard_check_pressed(vk_numpad0);
 phy_speed_x = phy_speed_x + (_hor * move_speed);
 phy_speed_y = phy_speed_y + (_ver * move_speed);
 
-if (place_meeting(x, y, [oSwordP1, oSpike, oSledgeHammmerP1, oHatchetP1]))
+if (place_meeting(x, y, [oSwordP1, oSpike, oSledgeHammmerP1, oHatchetP1, oHatchetP3, oHatchetP4]))
 {
 	instance_destroy();
 }

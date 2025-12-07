@@ -16,6 +16,7 @@
     {"$GMFolder":"","%Name":"Notes","folderPath":"folders/Notes.yy","name":"Notes","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"ControlledObjects","folderPath":"folders/Objects/ControlledObjects.yy","name":"ControlledObjects","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Vehicles","folderPath":"folders/Objects/ControlledObjects/Vehicles.yy","name":"Vehicles","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Mouse","folderPath":"folders/Objects/ControlledObjects/Mouse.yy","name":"Mouse","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Players","folderPath":"folders/Objects/ControlledObjects/Players.yy","name":"Players","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"InvObjects","folderPath":"folders/Objects/InvObjects.yy","name":"InvObjects","resourceType":"GMFolder","resourceVersion":"2.0",},
