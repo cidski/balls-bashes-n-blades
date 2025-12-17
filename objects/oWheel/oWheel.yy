@@ -13,7 +13,7 @@
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.4,
-  "physicsFriction":0.8,
+  "physicsFriction":10.0,
   "physicsGroup":1,
   "physicsKinematic":false,
   "physicsLinearDamping":0.1,
