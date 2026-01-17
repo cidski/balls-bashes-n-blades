@@ -25,8 +25,8 @@
   "physicsSensor":false,
   "physicsShape":0,
   "physicsShapePoints":[
-    {"x":24.0,"y":24.0,},
-    {"x":24.0,"y":24.0,},
+    {"x":12.0,"y":12.0,},
+    {"x":12.0,"y":12.0,},
   ],
   "physicsStartAwake":true,
   "properties":[],
@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sP3",
-    "path":"sprites/sP3/sP3.yy",
+    "name":"sEyeballDude",
+    "path":"sprites/sEyeballDude/sEyeballDude.yy",
   },
   "spriteMaskId":null,
   "visible":true,

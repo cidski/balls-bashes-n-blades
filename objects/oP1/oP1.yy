@@ -25,8 +25,8 @@
   "physicsSensor":false,
   "physicsShape":0,
   "physicsShapePoints":[
-    {"x":24.0,"y":24.0,},
-    {"x":24.0,"y":24.0,},
+    {"x":17.0,"y":19.0,},
+    {"x":12.0,"y":19.0,},
   ],
   "physicsStartAwake":true,
   "properties":[],
@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sP1",
-    "path":"sprites/sP1/sP1.yy",
+    "name":"sRadishDude",
+    "path":"sprites/sRadishDude/sRadishDude.yy",
   },
   "spriteMaskId":null,
   "visible":true,

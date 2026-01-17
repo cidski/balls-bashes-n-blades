@@ -25,8 +25,8 @@
   "physicsSensor":false,
   "physicsShape":0,
   "physicsShapePoints":[
-    {"x":24.0,"y":24.0,},
-    {"x":24.0,"y":24.0,},
+    {"x":12.0,"y":12.0,},
+    {"x":12.0,"y":12.0,},
   ],
   "physicsStartAwake":true,
   "properties":[],
@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sP2",
-    "path":"sprites/sP2/sP2.yy",
+    "name":"sSlimeDude",
+    "path":"sprites/sSlimeDude/sSlimeDude.yy",
   },
   "spriteMaskId":null,
   "visible":true,

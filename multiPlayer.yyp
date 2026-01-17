@@ -48,7 +48,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.1.210",
+    "IDEVersion":"2024.14.2.213",
   },
   "name":"multiPlayer",
   "resources":[
@@ -132,6 +132,8 @@
     {"id":{"name":"sCar","path":"sprites/sCar/sCar.yy",},},
     {"id":{"name":"sCarButton","path":"sprites/sCarButton/sCarButton.yy",},},
     {"id":{"name":"sCatapultButton","path":"sprites/sCatapultButton/sCatapultButton.yy",},},
+    {"id":{"name":"sEyeballDude","path":"sprites/sEyeballDude/sEyeballDude.yy",},},
+    {"id":{"name":"sGhostDude","path":"sprites/sGhostDude/sGhostDude.yy",},},
     {"id":{"name":"sHachetP1","path":"sprites/sHachetP1/sHachetP1.yy",},},
     {"id":{"name":"sHachetP2","path":"sprites/sHachetP2/sHachetP2.yy",},},
     {"id":{"name":"sHachetP3","path":"sprites/sHachetP3/sHachetP3.yy",},},
@@ -142,6 +144,7 @@
     {"id":{"name":"sP3","path":"sprites/sP3/sP3.yy",},},
     {"id":{"name":"sP4","path":"sprites/sP4/sP4.yy",},},
     {"id":{"name":"sPointTracker","path":"sprites/sPointTracker/sPointTracker.yy",},},
+    {"id":{"name":"sRadishDude","path":"sprites/sRadishDude/sRadishDude.yy",},},
     {"id":{"name":"sScoreP1","path":"sprites/sScoreP1/sScoreP1.yy",},},
     {"id":{"name":"sScoreP2","path":"sprites/sScoreP2/sScoreP2.yy",},},
     {"id":{"name":"sSledgeHammerDuelButton","path":"sprites/sSledgeHammerDuelButton/sSledgeHammerDuelButton.yy",},},
@@ -149,6 +152,7 @@
     {"id":{"name":"sSledgeHammerP2","path":"sprites/sSledgeHammerP2/sSledgeHammerP2.yy",},},
     {"id":{"name":"sSledgeHammerP3","path":"sprites/sSledgeHammerP3/sSledgeHammerP3.yy",},},
     {"id":{"name":"sSledgeHammerP4","path":"sprites/sSledgeHammerP4/sSledgeHammerP4.yy",},},
+    {"id":{"name":"sSlimeDude","path":"sprites/sSlimeDude/sSlimeDude.yy",},},
     {"id":{"name":"sSpike","path":"sprites/sSpike/sSpike.yy",},},
     {"id":{"name":"sSwordDuelButton","path":"sprites/sSwordDuelButton/sSwordDuelButton.yy",},},
     {"id":{"name":"sSwordP1","path":"sprites/sSwordP1/sSwordP1.yy",},},
