@@ -45,3 +45,4 @@ if (_interact = true)
 		physics_joint_delete(joint)
 	}
 }
+
