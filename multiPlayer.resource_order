@@ -64,6 +64,7 @@
     {"name":"oSledgeHammmerP1","order":2,"path":"objects/oSledgeHammmerP1/oSledgeHammmerP1.yy",},
     {"name":"oSledgeHammmerP2","order":3,"path":"objects/oSledgeHammmerP2/oSledgeHammmerP2.yy",},
     {"name":"oSpike","order":5,"path":"objects/oSpike/oSpike.yy",},
+    {"name":"oStart","order":2,"path":"objects/oStart/oStart.yy",},
     {"name":"oSwordDuelButton","order":7,"path":"objects/oSwordDuelButton/oSwordDuelButton.yy",},
     {"name":"oSwordP2","order":1,"path":"objects/oSwordP2/oSwordP2.yy",},
     {"name":"oWall","order":1,"path":"objects/oWall/oWall.yy",},

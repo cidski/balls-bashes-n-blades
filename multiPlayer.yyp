@@ -98,6 +98,7 @@
     {"id":{"name":"oSledgeHammmerP1","path":"objects/oSledgeHammmerP1/oSledgeHammmerP1.yy",},},
     {"id":{"name":"oSledgeHammmerP2","path":"objects/oSledgeHammmerP2/oSledgeHammmerP2.yy",},},
     {"id":{"name":"oSpike","path":"objects/oSpike/oSpike.yy",},},
+    {"id":{"name":"oStart","path":"objects/oStart/oStart.yy",},},
     {"id":{"name":"oSwordDuelButton","path":"objects/oSwordDuelButton/oSwordDuelButton.yy",},},
     {"id":{"name":"oSwordP1","path":"objects/oSwordP1/oSwordP1.yy",},},
     {"id":{"name":"oSwordP2","path":"objects/oSwordP2/oSwordP2.yy",},},
