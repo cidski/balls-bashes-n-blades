@@ -9,7 +9,7 @@ if (place_meeting(x, y, [oSwordP2, oSpike, oSledgeHammmerP1]))
 	instance_destroy()
 }
 
-with (o_id)
-{
-	phy_rotation = -(point_direction(x, y, mouse_x, mouse_y) - 90);
-}
+//with (o_id)
+//{
+//	phy_rotation = -(point_direction(x, y, mouse_x, mouse_y) - 90);
+//}
