@@ -1,18 +1,24 @@
 {
   "$GMObject":"",
   "%Name":"oP1",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"oP1",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"pP0","path":"objects/pP0/pP0.yy",},"propertyId":{"name":"face","path":"objects/pP0/pP0.yy",},"resource":{"name":"oRadishFace","path":"objects/oRadishFace/oRadishFace.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"oRadishFace",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"pP0","path":"objects/pP0/pP0.yy",},"propertyId":{"name":"key_right","path":"objects/pP0/pP0.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"ord(\"D\")",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"pP0","path":"objects/pP0/pP0.yy",},"propertyId":{"name":"key_left","path":"objects/pP0/pP0.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"ord(\"A\")",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"pP0","path":"objects/pP0/pP0.yy",},"propertyId":{"name":"key_up","path":"objects/pP0/pP0.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"ord(\"W\")",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"pP0","path":"objects/pP0/pP0.yy",},"propertyId":{"name":"key_down","path":"objects/pP0/pP0.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"ord(\"S\")",},
+  ],
   "parent":{
     "name":"Players",
     "path":"folders/Objects/ControlledObjects/Players.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"pP0",
+    "path":"objects/pP0/pP0.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.6,

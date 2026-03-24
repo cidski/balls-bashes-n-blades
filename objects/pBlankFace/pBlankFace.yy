@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"oGhostFace",
+  "%Name":"pBlankFace",
   "eventList":[],
   "managed":true,
-  "name":"oGhostFace",
+  "name":"pBlankFace",
   "overriddenProperties":[],
   "parent":{
     "name":"PlayerFaces",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sGhostFace",
-    "path":"sprites/sGhostFace/sGhostFace.yy",
+    "name":"sBlankFace",
+    "path":"sprites/sBlankFace/sBlankFace.yy",
   },
   "spriteMaskId":null,
   "visible":true,

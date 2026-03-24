@@ -1,18 +1,20 @@
 {
   "$GMObject":"",
   "%Name":"oP2",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"oP2",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"pP0","path":"objects/pP0/pP0.yy",},"propertyId":{"name":"face","path":"objects/pP0/pP0.yy",},"resource":{"name":"oSlimeFace","path":"objects/oSlimeFace/oSlimeFace.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"oSlimeFace",},
+  ],
   "parent":{
     "name":"Players",
     "path":"folders/Objects/ControlledObjects/Players.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"pP0",
+    "path":"objects/pP0/pP0.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.6,
