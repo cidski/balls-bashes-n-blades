@@ -1,18 +1,26 @@
 {
   "$GMObject":"",
   "%Name":"oP4",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"oP4",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"pP0","path":"objects/pP0/pP0.yy",},"propertyId":{"name":"face","path":"objects/pP0/pP0.yy",},"resource":{"name":"oGhostFace","path":"objects/oGhostFace/oGhostFace.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"oGhostFace",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"pP0","path":"objects/pP0/pP0.yy",},"propertyId":{"name":"gamepadNo","path":"objects/pP0/pP0.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"pP0","path":"objects/pP0/pP0.yy",},"propertyId":{"name":"isKeyboard","path":"objects/pP0/pP0.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"pP0","path":"objects/pP0/pP0.yy",},"propertyId":{"name":"key_right","path":"objects/pP0/pP0.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"gp_padr",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"pP0","path":"objects/pP0/pP0.yy",},"propertyId":{"name":"key_left","path":"objects/pP0/pP0.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"gp_padl",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"pP0","path":"objects/pP0/pP0.yy",},"propertyId":{"name":"key_up","path":"objects/pP0/pP0.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"gp_padu",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"pP0","path":"objects/pP0/pP0.yy",},"propertyId":{"name":"key_down","path":"objects/pP0/pP0.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"gp_padd",},
+  ],
   "parent":{
     "name":"Players",
     "path":"folders/Objects/ControlledObjects/Players.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"pP0",
+    "path":"objects/pP0/pP0.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.6,

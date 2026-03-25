@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"pBlankFace",
+  "%Name":"pFace0",
   "eventList":[],
   "managed":true,
-  "name":"pBlankFace",
+  "name":"pFace0",
   "overriddenProperties":[],
   "parent":{
     "name":"PlayerFaces",
