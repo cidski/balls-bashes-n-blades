@@ -1,5 +1,2 @@
-with (face)
-{
-	x = other.x;
-	y = other.y;
-}
+idFace.x = x;
+idFace.y = y;

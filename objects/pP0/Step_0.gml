@@ -14,26 +14,24 @@ else
 phy_speed_x = phy_speed_x + (_hor * move_speed);
 phy_speed_y = phy_speed_y + (_ver * move_speed);
 
-with (face)
+
+if (keyboard_check(key_right))
 {
-	if (keyboard_check(other.key_right))
+	if (idFace.image_angle > -45)
 	{
-		if (image_angle > -45)
-		{
-			image_angle -= 0.5;
-		}
+		idFace.image_angle -= 0.5;
 	}
-	else if (keyboard_check(other.key_left))
+}
+else if (keyboard_check(key_left))
+{
+	if (idFace.image_angle < 45)
 	{
-		if (image_angle < 45)
-		{
-			image_angle += 0.5;
-		}
+		idFace.image_angle += 0.5;
 	}
-	else
-	{
-		image_angle = 0;
-	}
+}
+else
+{
+	idFace.image_angle = 0;
 }
 
 if (_grab == true)
@@ -65,6 +63,6 @@ if (_grab == true)
 
 if (place_meeting(x, y, oSword))
 {
+	instance_destroy(idFace);
 	instance_destroy(id);
-	instance_destroy(face);
 }

@@ -9,8 +9,8 @@
   "name":"oPointColRight",
   "overriddenProperties":[],
   "parent":{
-    "name":"PointToCollisions",
-    "path":"folders/Objects/PhysObjects/Interactable/PointToCollisions.yy",
+    "name":"PointTo",
+    "path":"folders/Objects/PhysObjects/Interactable/PointTo.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -35,5 +35,5 @@
     "path":"sprites/sPointColRight/sPointColRight.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

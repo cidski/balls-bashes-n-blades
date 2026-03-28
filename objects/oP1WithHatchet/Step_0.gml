@@ -23,7 +23,7 @@ if (_interact == true)
 	{
 		//pick up
 		
-		if (collision_circle(x, y, 65, oHatchetP1, false, true) != noone)
+		if (collision_circle(x, y, 65, oDagger, false, true) != noone)
 		{
 			hatchet_id.phy_position_x = x;
 			hatchet_id.phy_position_y = y;
