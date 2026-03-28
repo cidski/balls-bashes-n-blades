@@ -41,6 +41,7 @@
     {"$GMObjectProperty":"v2","%Name":"key_down","filters":[],"listItems":[],"multiselect":false,"name":"key_down","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"ord(\"S\")","varType":4,},
     {"$GMObjectProperty":"v2","%Name":"gamepadNo","filters":[],"listItems":[],"multiselect":false,"name":"gamepadNo","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"isKeyboard","filters":[],"listItems":[],"multiselect":false,"name":"isKeyboard","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"true","varType":3,},
+    {"$GMObjectProperty":"v2","%Name":"key_grab","filters":[],"listItems":[],"multiselect":false,"name":"key_grab","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"ord(\"E\")","varType":4,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
