@@ -1,0 +1,53 @@
+{
+  "$GMTileSet":"v1",
+  "%Name":"tSpaceMetalBack",
+  "autoTileSets":[
+    {"$GMAutoTileSet":"","%Name":"SpaceMetal","closed_edge":false,"name":"SpaceMetal","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[
+        47,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,
+        37,38,39,40,41,42,43,44,45,46,
+      ],},
+  ],
+  "macroPageTiles":{
+    "SerialiseHeight":86,
+    "SerialiseWidth":21,
+    "TileCompressedData":[
+      -43,0,1,20,-4,0,1,20,-140,0,2,34,20,-4,0,1,20,-14,0,1,16,-20,0,1,16,-20,0,1,16,-20,0,1,16,-20,0,1,16,
+      -62,0,1,34,-18,20,3,36,0,16,-18,0,3,24,0,16,-18,0,3,24,0,16,-18,0,3,24,0,16,-18,0,3,24,0,16,-18,0,3,
+      24,0,16,-4,0,1,24,-13,0,1,24,-6,0,1,24,-13,0,3,24,0,0,-4,20,-14,0,1,24,-20,0,1,24,-3,0,-3,11,1,24,-16,
+      0,-2,11,3,0,11,24,-15,0,-5,11,1,24,-15,0,-3,11,-2,20,1,36,-20,0,1,24,-20,0,1,24,-17,0,4,20,0,0,24,-20,
+      0,1,24,-37,0,-4,20,-63,0,1,36,-16,0,-2,20,-2,0,1,24,-20,0,1,24,-20,0,1,24,-20,0,1,24,-20,0,1,24,-20,
+      0,1,24,-16,0,-4,28,1,38,-455,0,1,24,-20,0,1,24,-20,0,1,24,-20,0,1,24,-20,0,1,24,-20,0,1,24,-20,0,1,24,
+      -20,0,1,24,-20,0,1,24,-20,0,1,24,-20,0,1,24,-20,0,2,24,16,-19,0,2,24,16,-19,0,2,24,16,-18,0,3,24,0,16,
+      -18,0,3,24,0,16,-18,0,3,24,0,16,-4,0,-14,28,3,38,0,40,-4,28,-16,0,
+    ],
+    "TileDataFormat":1,
+  },
+  "name":"tSpaceMetalBack",
+  "out_columns":6,
+  "out_tilehborder":2,
+  "out_tilevborder":2,
+  "parent":{
+    "name":"Tile Sets",
+    "path":"folders/Tile Sets.yy",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"sSpaceMetalTileSetBack",
+    "path":"sprites/sSpaceMetalTileSetBack/sSpaceMetalTileSetBack.yy",
+  },
+  "spriteNoExport":false,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
+  "tileAnimationFrames":[],
+  "tileAnimationSpeed":15.0,
+  "tileHeight":48,
+  "tilehsep":0,
+  "tilevsep":0,
+  "tileWidth":48,
+  "tilexoff":0,
+  "tileyoff":0,
+  "tile_count":42,
+}
