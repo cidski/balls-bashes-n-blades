@@ -14,24 +14,26 @@ else
 phy_speed_x = phy_speed_x + (_hor * move_speed);
 phy_speed_y = phy_speed_y + (_ver * move_speed);
 
-
-if (keyboard_check(key_right))
+if (face != noone)
 {
-	if (idFace.image_angle > -45)
+	if (keyboard_check(key_right))
 	{
-		idFace.image_angle -= 0.5;
+		if (idFace.image_angle > -45)
+		{
+			idFace.image_angle -= 0.5;
+		}
 	}
-}
-else if (keyboard_check(key_left))
-{
-	if (idFace.image_angle < 45)
+	else if (keyboard_check(key_left))
 	{
-		idFace.image_angle += 0.5;
+		if (idFace.image_angle < 45)
+		{
+			idFace.image_angle += 0.5;
+		}
 	}
-}
-else
-{
-	idFace.image_angle = 0;
+	else
+	{
+		idFace.image_angle = 0;
+	}
 }
 
 if (_grab == true)
@@ -61,8 +63,26 @@ if (_grab == true)
 	}
 }
 
+if (damageTimer > 0)
+{
+	damageTimer--;
+}
+
 if (place_meeting(x, y, oSword))
 {
+	if (damageTimer <= 0)
+	{
+		HP--;
+		damageTimer = 50;
+	}
+}
+
+if (HP <= 0)
+{
+	if (face != noone)
+	{
 	instance_destroy(idFace);
 	instance_destroy(id);
+	}
 }
+show_debug_message(HP);

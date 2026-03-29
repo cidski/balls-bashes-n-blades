@@ -28,6 +28,7 @@
     {"name":"inst_3454327C","path":"rooms/rSpaceStation/rSpaceStation.yy",},
     {"name":"inst_334B71B4","path":"rooms/rSpaceStation/rSpaceStation.yy",},
     {"name":"inst_7D634EB5","path":"rooms/rSpaceStation/rSpaceStation.yy",},
+    {"name":"inst_5A78BD9C","path":"rooms/rSpaceStation/rSpaceStation.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -65,6 +66,7 @@
       ],"layers":[],"name":"Players","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Weapons","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_334B71B4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_334B71B4","objectId":{"name":"oSword","path":"objects/oSword/oSword.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":768.0,"y":480.0,},
+        {"$GMRInstance":"v4","%Name":"inst_5A78BD9C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5A78BD9C","objectId":{"name":"oP3","path":"objects/oP3/oP3.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":992.0,"y":384.0,},
       ],"layers":[],"name":"Weapons","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"DecoModular","depth":600,"effectEnabled":true,"effectType":null,"gridX":48,"gridY":48,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_175C7646","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_175C7646","objectId":{"name":"oSpaceWindow","path":"objects/oSpaceWindow/oSpaceWindow.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":6.0,"scaleY":2.0,"x":528.0,"y":336.0,},
