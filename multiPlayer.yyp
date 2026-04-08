@@ -53,7 +53,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.4.221",
+    "IDEVersion":"2024.14.4.222",
   },
   "name":"multiPlayer",
   "resources":[
@@ -72,6 +72,7 @@
     {"id":{"name":"oBeachBallScoreManager","path":"objects/oBeachBallScoreManager/oBeachBallScoreManager.yy",},},
     {"id":{"name":"oBouncyBallsButton","path":"objects/oBouncyBallsButton/oBouncyBallsButton.yy",},},
     {"id":{"name":"oBox","path":"objects/oBox/oBox.yy",},},
+    {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},},
     {"id":{"name":"oCar","path":"objects/oCar/oCar.yy",},},
     {"id":{"name":"oCarButton","path":"objects/oCarButton/oCarButton.yy",},},
     {"id":{"name":"oCatapultButton","path":"objects/oCatapultButton/oCatapultButton.yy",},},
