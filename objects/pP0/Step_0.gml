@@ -1,8 +1,8 @@
 if (isKeyboard == true)
 {
-var _hor = keyboard_check(key_right) - keyboard_check(key_left);
-var _ver = keyboard_check(key_down) - keyboard_check(key_up);
-var _grab = keyboard_check_pressed(key_grab);
+	var _hor = keyboard_check(key_right) - keyboard_check(key_left);
+	var _ver = keyboard_check(key_down) - keyboard_check(key_up);
+	var _grab = keyboard_check_pressed(key_grab);
 }
 else
 {
@@ -61,6 +61,11 @@ if (_grab == true)
 		
 		isGrabbing = false;
 	}
+}
+
+if (isGrabbing == true)
+{
+	
 }
 
 if (damageTimer > 0)
