@@ -1,4 +1,4 @@
-if (instance_position(idBoundWeapon.idColDot.x, idBoundWeapon.idColDot.y, id))
+if (instance_position(idBoundPlayer.idColDot.x, idBoundPlayer.idColDot.y, id))
 {
 	collisionWithMouse = true;
 	

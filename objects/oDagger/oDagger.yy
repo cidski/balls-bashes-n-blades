@@ -1,19 +1,20 @@
 {
   "$GMObject":"",
   "%Name":"oDagger",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"oDagger",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"pPoint","path":"objects/pPoint/pPoint.yy",},"propertyId":{"name":"type","path":"objects/pPoint/pPoint.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"dagger\"",},
+  ],
   "parent":{
     "name":"Interactable",
     "path":"folders/Objects/PhysObjects/Interactable.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"pPoint",
+    "path":"objects/pPoint/pPoint.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.3,

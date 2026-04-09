@@ -40,9 +40,9 @@ if (_grab == true)
 {
 	if (isGrabbing == false)
 	{
-		if (collision_circle(x, y, 100, oSword, true, true))
+		if (collision_circle(x, y, 100, pPoint, true, true))
 		{
-			o_id = instance_nearest(x, y, oSword);
+			o_id = instance_nearest(x, y, pPoint);
 			o_id.phy_position_x = x;
 			o_id.phy_position_y = y;
 			var mainFixture = physics_fixture_create();
@@ -65,7 +65,71 @@ if (_grab == true)
 
 if (isGrabbing == true)
 {
+	if (idColLeft == noone)
+	{
+		idColLeft = instance_create_layer(x, y, "Collisions", oPointColLeft);
+	}
 	
+	if (idColRight == noone)
+	{
+		idColRight = instance_create_layer(x, y, "Collisions", oPointColRight);
+	}
+	
+	if (idColDot == noone)
+	{
+		idColDot = instance_create_layer(x, y, "Collisions", oMouseOrJoystickDot);
+	}
+	
+	if (isKeyboard == true)
+	{
+		mouseVectorAngle = point_direction(x, y, mouse_x, mouse_y);
+		
+		idColDot.x = x + cos(mouseVectorAngle * pi / 180) * 80;
+		idColDot.y = y + -sin(mouseVectorAngle * pi / 180) * 80;
+		
+		if (idColLeft.collisionWithMouse == true)
+		{
+			o_id.phy_angular_velocity -= 50;
+		}
+		else if (idColRight.collisionWithMouse == true)
+		{
+			o_id.phy_angular_velocity += 50;
+		}
+		o_id.phy_angular_velocity = o_id.phy_angular_velocity * 0.90;
+	}
+	else
+	{
+		var _stickX = gamepad_axis_value(gamepadNo, gp_axisrh);
+		var _stickY = gamepad_axis_value(gamepadNo, gp_axisrv);
+		
+		mouseVectorAngle = point_direction(x, y, x + _stickX, y + _stickY);
+		
+		idColDot.x = x + cos(mouseVectorAngle * pi / 180) * 80;
+		idColDot.y = y + -sin(mouseVectorAngle * pi / 180) * 80;
+		
+		if ((_stickX > 0.1 || _stickX < -0.1) && (_stickY > 0.1 || _stickY < -0.1))
+		{
+			if (idColLeft.collisionWithMouse == true)
+			{
+				o_id.phy_angular_velocity -= 50;
+			}
+			else if (idColRight.collisionWithMouse == true)
+			{
+				o_id.phy_angular_velocity += 50;
+			}
+			o_id.phy_angular_velocity = o_id.phy_angular_velocity * 0.95;
+		}
+	}
+}
+else
+{
+	instance_destroy(idColLeft);
+	instance_destroy(idColRight);
+	instance_destroy(idColDot);
+	
+	idColLeft = noone;
+	idColRight = noone;
+	idColDot = noone;
 }
 
 if (damageTimer > 0)

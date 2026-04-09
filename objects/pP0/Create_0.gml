@@ -10,6 +10,6 @@ if (face != noone)
 
 mouseVectorAngle = 0;
 
-idColLeft = instance_create_layer(x, y, "Collisions", oPointColLeft);
-idColRight = instance_create_layer(x, y, "Collisions", oPointColRight);
-idColDot = instance_create_layer(x, y, "Collisions", oMouseOrJoystickDot);
+idColLeft = noone;
+idColRight = noone;
+idColDot = noone;
