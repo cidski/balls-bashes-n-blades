@@ -42,6 +42,7 @@
     {"name":"oBeachBall","order":3,"path":"objects/oBeachBall/oBeachBall.yy",},
     {"name":"oBeachBallButton","order":3,"path":"objects/oBeachBallButton/oBeachBallButton.yy",},
     {"name":"oBouncyBallsButton","order":4,"path":"objects/oBouncyBallsButton/oBouncyBallsButton.yy",},
+    {"name":"oCamera","order":3,"path":"objects/oCamera/oCamera.yy",},
     {"name":"oCarButton","order":6,"path":"objects/oCarButton/oCarButton.yy",},
     {"name":"oCatapultButton","order":5,"path":"objects/oCatapultButton/oCatapultButton.yy",},
     {"name":"oDagger","order":4,"path":"objects/oDagger/oDagger.yy",},
