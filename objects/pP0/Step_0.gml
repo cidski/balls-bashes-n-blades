@@ -43,6 +43,7 @@ if (_grab == true)
 		if (collision_circle(x, y, 100, pPoint, true, true))
 		{
 			o_id = instance_nearest(x, y, pPoint);
+			
 			o_id.phy_position_x = x;
 			o_id.phy_position_y = y;
 			var mainFixture = physics_fixture_create();
@@ -82,6 +83,8 @@ if (isGrabbing == true)
 	
 	if (isKeyboard == true)
 	{
+		idColDot.image_alpha = 0;
+		
 		mouseVectorAngle = point_direction(x, y, mouse_x, mouse_y);
 		
 		idColDot.x = x + cos(mouseVectorAngle * pi / 180) * 80;
@@ -99,13 +102,16 @@ if (isGrabbing == true)
 	}
 	else
 	{
+		idColDot.image_alpha = 1;
+		
 		var _stickX = gamepad_axis_value(gamepadNo, gp_axisrh);
 		var _stickY = gamepad_axis_value(gamepadNo, gp_axisrv);
+
+		idColDot.y = y + _stickY * 80;
+		idColDot.x = x + _stickX * 80;
 		
-		mouseVectorAngle = point_direction(x, y, x + _stickX, y + _stickY);
+		idColDot.image_alpha = point_distance(idColDot.x, idColDot.y, x, y) / 80;
 		
-		idColDot.x = x + cos(mouseVectorAngle * pi / 180) * 80;
-		idColDot.y = y + -sin(mouseVectorAngle * pi / 180) * 80;
 		
 		if ((_stickX > 0.1 || _stickX < -0.1) && (_stickY > 0.1 || _stickY < -0.1))
 		{
@@ -151,7 +157,12 @@ if (HP <= 0)
 	if (face != noone)
 	{
 	instance_destroy(idFace);
-	instance_destroy(id);
 	}
+	
+	instance_destroy(idColDot);
+	instance_destroy(idColLeft);
+	instance_destroy(idColRight);
+	
+	instance_destroy(id);
 }
 show_debug_message(HP);

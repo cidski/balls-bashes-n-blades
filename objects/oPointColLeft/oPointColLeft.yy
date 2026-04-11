@@ -35,5 +35,5 @@
     "path":"sprites/sPointColLeft/sPointColLeft.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

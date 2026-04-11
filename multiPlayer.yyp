@@ -135,6 +135,7 @@
     {"id":{"name":"sBasketRight","path":"sprites/sBasketRight/sBasketRight.yy",},},
     {"id":{"name":"sBeachBall","path":"sprites/sBeachBall/sBeachBall.yy",},},
     {"id":{"name":"sBeachBallButton","path":"sprites/sBeachBallButton/sBeachBallButton.yy",},},
+    {"id":{"name":"sBkgSpace","path":"sprites/sBkgSpace/sBkgSpace.yy",},},
     {"id":{"name":"sBlankDude","path":"sprites/sBlankDude/sBlankDude.yy",},},
     {"id":{"name":"sBlankFace","path":"sprites/sBlankFace/sBlankFace.yy",},},
     {"id":{"name":"sBouncyBallsButton","path":"sprites/sBouncyBallsButton/sBouncyBallsButton.yy",},},

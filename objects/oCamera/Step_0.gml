@@ -56,7 +56,8 @@ camera_set_view_pos(cam,  x - _vw_half, y - _vh_half);
 //	layer_x("BkgMiddle", x / 2);
 //}
 
-//if (layer_exists("BkgFront"))
-//{
-//	layer_x("BkgFront", x / 10);
-//}
+if (layer_exists("Background"))
+{
+	layer_x("Background", x / 1.1);
+	layer_y("Background", y / 1.1);
+}

@@ -14,6 +14,7 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"pP0","path":"objects/pP0/pP0.yy",},"propertyId":{"name":"face","path":"objects/pP0/pP0.yy",},"resource":{"name":"pFace0","path":"objects/pFace0/pFace0.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"noone",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"pP0","path":"objects/pP0/pP0.yy",},"propertyId":{"name":"isKeyboard","path":"objects/pP0/pP0.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"pP0","path":"objects/pP0/pP0.yy",},"propertyId":{"name":"key_grab","path":"objects/pP0/pP0.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"gp_shoulderr",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"pP0","path":"objects/pP0/pP0.yy",},"propertyId":{"name":"gamepadNo","path":"objects/pP0/pP0.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
   ],
   "parent":{
     "name":"Players",
