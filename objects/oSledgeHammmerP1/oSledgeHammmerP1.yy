@@ -1,15 +1,22 @@
 {
   "$GMObject":"",
   "%Name":"oSledgeHammmerP1",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"oSledgeHammmerP1",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"pPoint","path":"objects/pPoint/pPoint.yy",},"propertyId":{"name":"type","path":"objects/pPoint/pPoint.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"hammer\"",},
+  ],
   "parent":{
     "name":"Interactable",
     "path":"folders/Objects/PhysObjects/Interactable.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"pPoint",
+    "path":"objects/pPoint/pPoint.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.8,
@@ -22,10 +29,10 @@
   "physicsSensor":false,
   "physicsShape":1,
   "physicsShapePoints":[
-    {"x":1.0,"y":5.0,},
-    {"x":47.0,"y":5.0,},
-    {"x":47.0,"y":35.0,},
-    {"x":1.0,"y":35.0,},
+    {"x":0.0,"y":12.0,},
+    {"x":63.0,"y":12.0,},
+    {"x":63.0,"y":51.0,},
+    {"x":0.0,"y":51.0,},
   ],
   "physicsStartAwake":true,
   "properties":[],
@@ -33,8 +40,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sSledgeHammerP1",
-    "path":"sprites/sSledgeHammerP1/sSledgeHammerP1.yy",
+    "name":"sSledgeHammer",
+    "path":"sprites/sSledgeHammer/sSledgeHammer.yy",
   },
   "spriteMaskId":null,
   "visible":true,

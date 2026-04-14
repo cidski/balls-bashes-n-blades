@@ -6,8 +6,8 @@ if (isKeyboard == true)
 }
 else
 {
-	var _hor = gamepad_button_check(gamepadNo, key_right) - gamepad_button_check(gamepadNo, key_left);
-	var _ver = gamepad_button_check(gamepadNo, key_down) - gamepad_button_check(gamepadNo, key_up);
+	var _hor = gamepad_axis_value(gamepadNo, key_right);
+	var _ver = gamepad_axis_value(gamepadNo, key_up);
 	var _grab = gamepad_button_check_pressed(gamepadNo, key_grab);
 }
 
@@ -81,6 +81,27 @@ if (isGrabbing == true)
 		idColDot = instance_create_layer(x, y, "Collisions", oMouseOrJoystickDot);
 	}
 	
+	if (o_id.type == "sword")
+	{
+		pointSpeed = 30;
+		pointDampen = 0.90;
+	}
+	else if (o_id.type == "dagger")
+	{
+		pointSpeed = 100;
+		pointDampen = 0.95;
+	}
+	else if (o_id.type == "hammer")
+	{
+		pointSpeed = 30;
+		pointDampen = 0.95;
+	}
+	else
+	{
+		pointSpeed = 30;
+		pointDampen = 0.90;
+	}
+	
 	if (isKeyboard == true)
 	{
 		idColDot.image_alpha = 0;
@@ -92,13 +113,13 @@ if (isGrabbing == true)
 		
 		if (idColLeft.collisionWithMouse == true)
 		{
-			o_id.phy_angular_velocity -= 50;
+			o_id.phy_angular_velocity -= pointSpeed;
 		}
 		else if (idColRight.collisionWithMouse == true)
 		{
-			o_id.phy_angular_velocity += 50;
+			o_id.phy_angular_velocity += pointSpeed;
 		}
-		o_id.phy_angular_velocity = o_id.phy_angular_velocity * 0.90;
+		o_id.phy_angular_velocity = o_id.phy_angular_velocity * pointDampen;
 	}
 	else
 	{
@@ -117,13 +138,13 @@ if (isGrabbing == true)
 		{
 			if (idColLeft.collisionWithMouse == true)
 			{
-				o_id.phy_angular_velocity -= 50;
+				o_id.phy_angular_velocity -= pointSpeed;
 			}
 			else if (idColRight.collisionWithMouse == true)
 			{
-				o_id.phy_angular_velocity += 50;
+				o_id.phy_angular_velocity += pointSpeed;
 			}
-			o_id.phy_angular_velocity = o_id.phy_angular_velocity * 0.95;
+			o_id.phy_angular_velocity = o_id.phy_angular_velocity * pointDampen;
 		}
 	}
 }
@@ -143,7 +164,7 @@ if (damageTimer > 0)
 	damageTimer--;
 }
 
-if (place_meeting(x, y, oSword))
+if (place_meeting(x, y, pPoint))
 {
 	if (damageTimer <= 0)
 	{
@@ -162,6 +183,8 @@ if (HP <= 0)
 	instance_destroy(idColDot);
 	instance_destroy(idColLeft);
 	instance_destroy(idColRight);
+	
+	layer_text_destroy(healthText);
 	
 	instance_destroy(id);
 }

@@ -14,3 +14,7 @@ if (isGrabbing == true)
 	idColLeft.image_angle = -o_id.phy_rotation;
 	idColRight.image_angle = -o_id.phy_rotation;
 }
+
+layer_text_x(healthText, x - 15);
+layer_text_y(healthText, y + 40);
+layer_text_text(healthText, string(HP) + "/10");
