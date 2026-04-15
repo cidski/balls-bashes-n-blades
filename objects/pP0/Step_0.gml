@@ -134,7 +134,7 @@ if (isGrabbing == true)
 		idColDot.image_alpha = point_distance(idColDot.x, idColDot.y, x, y) / 80;
 		
 		
-		if ((_stickX > 0.1 || _stickX < -0.1) && (_stickY > 0.1 || _stickY < -0.1))
+		if (point_distance(0, 0, _stickX, _stickY) > 0.1)
 		{
 			if (idColLeft.collisionWithMouse == true)
 			{
