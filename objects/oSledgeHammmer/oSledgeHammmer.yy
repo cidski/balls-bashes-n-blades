@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"oSledgeHammmerP1",
+  "%Name":"oSledgeHammmer",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oSledgeHammmerP1",
+  "name":"oSledgeHammmer",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"pPoint","path":"objects/pPoint/pPoint.yy",},"propertyId":{"name":"type","path":"objects/pPoint/pPoint.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"hammer\"",},
   ],
@@ -29,10 +29,10 @@
   "physicsSensor":false,
   "physicsShape":1,
   "physicsShapePoints":[
-    {"x":0.0,"y":12.0,},
-    {"x":63.0,"y":12.0,},
-    {"x":63.0,"y":51.0,},
-    {"x":0.0,"y":51.0,},
+    {"x":27.0,"y":0.0,},
+    {"x":36.0,"y":0.0,},
+    {"x":36.0,"y":162.0,},
+    {"x":27.0,"y":162.0,},
   ],
   "physicsStartAwake":true,
   "properties":[],
