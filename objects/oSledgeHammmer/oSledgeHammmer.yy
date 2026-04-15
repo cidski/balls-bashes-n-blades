@@ -1,11 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"oDagger",
-  "eventList":[],
+  "%Name":"oSledgeHammmer",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"oDagger",
+  "name":"oSledgeHammmer",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"pPoint","path":"objects/pPoint/pPoint.yy",},"propertyId":{"name":"type","path":"objects/pPoint/pPoint.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"dagger\"",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"pPoint","path":"objects/pPoint/pPoint.yy",},"propertyId":{"name":"type","path":"objects/pPoint/pPoint.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"hammer\"",},
   ],
   "parent":{
     "name":"Interactable",
@@ -17,7 +19,7 @@
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
-  "physicsDensity":0.3,
+  "physicsDensity":0.8,
   "physicsFriction":0.2,
   "physicsGroup":1,
   "physicsKinematic":false,
@@ -27,10 +29,10 @@
   "physicsSensor":false,
   "physicsShape":1,
   "physicsShapePoints":[
-    {"x":3.0,"y":0.0,},
-    {"x":12.0,"y":0.0,},
-    {"x":12.0,"y":51.0,},
-    {"x":3.0,"y":51.0,},
+    {"x":27.0,"y":0.0,},
+    {"x":36.0,"y":0.0,},
+    {"x":36.0,"y":162.0,},
+    {"x":27.0,"y":162.0,},
   ],
   "physicsStartAwake":true,
   "properties":[],
@@ -38,8 +40,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sDagger",
-    "path":"sprites/sDagger/sDagger.yy",
+    "name":"sSledgeHammer",
+    "path":"sprites/sSledgeHammer/sSledgeHammer.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -7,13 +7,12 @@
   "managed":true,
   "name":"oP3",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"pP0","path":"objects/pP0/pP0.yy",},"propertyId":{"name":"key_right","path":"objects/pP0/pP0.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"gp_padr",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"pP0","path":"objects/pP0/pP0.yy",},"propertyId":{"name":"key_left","path":"objects/pP0/pP0.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"gp_padl",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"pP0","path":"objects/pP0/pP0.yy",},"propertyId":{"name":"key_up","path":"objects/pP0/pP0.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"gp_padu",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"pP0","path":"objects/pP0/pP0.yy",},"propertyId":{"name":"key_down","path":"objects/pP0/pP0.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"gp_padd",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"pP0","path":"objects/pP0/pP0.yy",},"propertyId":{"name":"key_right","path":"objects/pP0/pP0.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"gp_axislh",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"pP0","path":"objects/pP0/pP0.yy",},"propertyId":{"name":"key_up","path":"objects/pP0/pP0.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"gp_axislv",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"pP0","path":"objects/pP0/pP0.yy",},"propertyId":{"name":"face","path":"objects/pP0/pP0.yy",},"resource":{"name":"pFace0","path":"objects/pFace0/pFace0.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"noone",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"pP0","path":"objects/pP0/pP0.yy",},"propertyId":{"name":"isKeyboard","path":"objects/pP0/pP0.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"pP0","path":"objects/pP0/pP0.yy",},"propertyId":{"name":"key_grab","path":"objects/pP0/pP0.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"gp_shoulderr",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"pP0","path":"objects/pP0/pP0.yy",},"propertyId":{"name":"gamepadNo","path":"objects/pP0/pP0.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
   ],
   "parent":{
     "name":"Players",

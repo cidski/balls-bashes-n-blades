@@ -32,5 +32,5 @@
     "path":"sprites/sMouseOrJoystickDot/sMouseOrJoystickDot.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

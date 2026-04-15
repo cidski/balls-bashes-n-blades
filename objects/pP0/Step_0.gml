@@ -1,13 +1,13 @@
 if (isKeyboard == true)
 {
-var _hor = keyboard_check(key_right) - keyboard_check(key_left);
-var _ver = keyboard_check(key_down) - keyboard_check(key_up);
-var _grab = keyboard_check_pressed(key_grab);
+	var _hor = keyboard_check(key_right) - keyboard_check(key_left);
+	var _ver = keyboard_check(key_down) - keyboard_check(key_up);
+	var _grab = keyboard_check_pressed(key_grab);
 }
 else
 {
-	var _hor = gamepad_button_check(gamepadNo, key_right) - gamepad_button_check(gamepadNo, key_left);
-	var _ver = gamepad_button_check(gamepadNo, key_down) - gamepad_button_check(gamepadNo, key_up);
+	var _hor = gamepad_axis_value(gamepadNo, key_right);
+	var _ver = gamepad_axis_value(gamepadNo, key_up);
 	var _grab = gamepad_button_check_pressed(gamepadNo, key_grab);
 }
 
@@ -40,9 +40,10 @@ if (_grab == true)
 {
 	if (isGrabbing == false)
 	{
-		if (collision_circle(x, y, 100, oSword, true, true))
+		if (collision_circle(x, y, 100, pPoint, true, true))
 		{
-			o_id = instance_nearest(x, y, oSword);
+			o_id = instance_nearest(x, y, pPoint);
+			
 			o_id.phy_position_x = x;
 			o_id.phy_position_y = y;
 			var mainFixture = physics_fixture_create();
@@ -63,12 +64,107 @@ if (_grab == true)
 	}
 }
 
+if (isGrabbing == true)
+{
+	if (idColLeft == noone)
+	{
+		idColLeft = instance_create_layer(x, y, "Collisions", oPointColLeft);
+	}
+	
+	if (idColRight == noone)
+	{
+		idColRight = instance_create_layer(x, y, "Collisions", oPointColRight);
+	}
+	
+	if (idColDot == noone)
+	{
+		idColDot = instance_create_layer(x, y, "Collisions", oMouseOrJoystickDot);
+	}
+	
+	if (o_id.type == "sword")
+	{
+		pointSpeed = 30;
+		pointDampen = 0.90;
+	}
+	else if (o_id.type == "dagger")
+	{
+		pointSpeed = 100;
+		pointDampen = 0.95;
+	}
+	else if (o_id.type == "hammer")
+	{
+		pointSpeed = 30;
+		pointDampen = 0.95;
+	}
+	else
+	{
+		pointSpeed = 30;
+		pointDampen = 0.90;
+	}
+	
+	if (isKeyboard == true)
+	{
+		idColDot.image_alpha = 0;
+		
+		mouseVectorAngle = point_direction(x, y, mouse_x, mouse_y);
+		
+		idColDot.x = x + cos(mouseVectorAngle * pi / 180) * 80;
+		idColDot.y = y + -sin(mouseVectorAngle * pi / 180) * 80;
+		
+		if (idColLeft.collisionWithMouse == true)
+		{
+			o_id.phy_angular_velocity -= pointSpeed;
+		}
+		else if (idColRight.collisionWithMouse == true)
+		{
+			o_id.phy_angular_velocity += pointSpeed;
+		}
+		o_id.phy_angular_velocity = o_id.phy_angular_velocity * pointDampen;
+	}
+	else
+	{
+		idColDot.image_alpha = 1;
+		
+		var _stickX = gamepad_axis_value(gamepadNo, gp_axisrh);
+		var _stickY = gamepad_axis_value(gamepadNo, gp_axisrv);
+
+		idColDot.y = y + _stickY * 80;
+		idColDot.x = x + _stickX * 80;
+		
+		idColDot.image_alpha = point_distance(idColDot.x, idColDot.y, x, y) / 80;
+		
+		
+		if ((_stickX > 0.1 || _stickX < -0.1) && (_stickY > 0.1 || _stickY < -0.1))
+		{
+			if (idColLeft.collisionWithMouse == true)
+			{
+				o_id.phy_angular_velocity -= pointSpeed;
+			}
+			else if (idColRight.collisionWithMouse == true)
+			{
+				o_id.phy_angular_velocity += pointSpeed;
+			}
+			o_id.phy_angular_velocity = o_id.phy_angular_velocity * pointDampen;
+		}
+	}
+}
+else
+{
+	instance_destroy(idColLeft);
+	instance_destroy(idColRight);
+	instance_destroy(idColDot);
+	
+	idColLeft = noone;
+	idColRight = noone;
+	idColDot = noone;
+}
+
 if (damageTimer > 0)
 {
 	damageTimer--;
 }
 
-if (place_meeting(x, y, oSword))
+if (place_meeting(x, y, pPoint))
 {
 	if (damageTimer <= 0)
 	{
@@ -82,7 +178,14 @@ if (HP <= 0)
 	if (face != noone)
 	{
 	instance_destroy(idFace);
-	instance_destroy(id);
 	}
+	
+	instance_destroy(idColDot);
+	instance_destroy(idColLeft);
+	instance_destroy(idColRight);
+	
+	layer_text_destroy(healthText);
+	
+	instance_destroy(id);
 }
 show_debug_message(HP);

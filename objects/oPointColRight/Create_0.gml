@@ -1,2 +1,2 @@
 collisionWithMouse = false;
-idBoundWeapon = instance_nearest(x, y, oSword);
+idBoundPlayer = instance_nearest(x, y, pP0);
